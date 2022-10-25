@@ -115,7 +115,7 @@ const menu = (opcion, monto, email) =>{
                     text: "El valor que debe abonar es: $ " + calcularPrecioAPagar(monto),
                   });
 
-                  /* let data = {
+                  let data = {
                     service_id: 'service_g5p6lvt',
                     template_id: 'template_bk50r6d',
                     user_id: 'GISgVBXhRR0-yU2EY',
@@ -135,7 +135,7 @@ const menu = (opcion, monto, email) =>{
                     console.log('Mail enviado!');
                 }).catch(function(error) {
                 console.log('Hubo un problema con la petición Fetch:' + error.message);
-                }); */
+                });
 
             }else {
                 Swal.fire({
