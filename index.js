@@ -177,7 +177,7 @@ const verSegurosContratados = () =>{
     }else{
         let segurosCont = document.getElementById("segurosContratados");
         segurosCont.innerHTML = `<h2 class="mt-4">Seguros Contratados</h2>
-        <input type="submit" class="btn btn-info mt-3 mb-3" id="eliminarTodo" value="Eliminar todo">`;
+        <input type="submit" class="btn btn-danger mt-3 mb-3" id="eliminarTodo" value="Eliminar todo">`;
 
     let botonEliminarTodo = document.getElementById("eliminarTodo");
 
