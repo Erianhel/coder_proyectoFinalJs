@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fondo {
+    background-color: #ffd5c8;
+}
+
+.letra-titulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: azure;
+}
+
+.letra-subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1.9rem;
+}
+
+.fondo-titulo {
+    background-color: #552828;
+}
+
+header {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.borde {
+    border-radius: 5px;
+}
